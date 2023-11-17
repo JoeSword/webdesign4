@@ -10,58 +10,85 @@
 body	{
 		background-image: url("images/animewp.png");
 		}
-		
 #wrapper{
 		width:50%;
-		height:1500px;
+		height:2800px;
 		margin-left:auto;
 		margin-right:auto;
 		padding-left:10px;
 		padding-right:10px;
 		/* set the background color */
-	background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(171,0,0,0.6) 0%, rgba(0,204,255,0.6) 37.9%, rgba(195,121,250,0.6) 68.1%, #ba35fe 90% );
+		background-image: radial-gradient( circle farthest-corner at 10% 20%,
+		rgba(171,0,0,0.6) 0%, rgba(0,204,255,0.6) 37.9%, rgba(195,121,250,0.6) 68.1%, #ba35fe 90% );
 		}
 h1,h2,h3,h4{
 		color:rgb(44,188,204 );
 		background-color:rgb(142,118,151);
-		margin-left:240px;
-		margin-right:240px;
+		margin-left:auto;
+		margin-right:auto;
 		}
-
 h1	{
 		color: rgba(171,0,0,0.7);
-		background-color:rgb(144,228,240);
-		font-size;2em;
+		background-color:rgba(144,228,240,0.7);
+		font-size;1.5em;
 		text-align:center;
 		}
 h2		{
 		color:rgba(0,204,255,0.7);
 		font-size:1.5em;
+		text-align:center;
 		}
 h3,h4{		
 		color:rgba(195,121,250,0.7);
 		}
 p	{
 		color:rgba(171,0,0,0.7);
-		letter-spacing:0.5em;
-		line-height:1.5;
+		background-color:rgba(144,228,240,0.7);
 		}
-a 	{
-		font-size;2em;
+.highlight {
+		background-color:rgba(171,0,0,0.7);
+		text-align:left;
+		color:#FEFCFF;
+		}
+a:visited	{
+		color:rgba(195,121,250,0.7);
+		}
+a:link		{
 		font-family:jokerman;
 		text-decoration-style:wavy;
+		list-style-type:katakana;
+		}
+a:active	{
 		color:#FEFCFF;
+		font-size;2em;
+		}
+a:hover		{
+		color:rgba(195,121,250,0.7);
+		}
+ol	{
+		background-color:rgba(0,204,255,0.5);
+		text-align:centre;
+		}
+.href	{
+		list-style-type:katakana;
+		background-color:rgba(144,228,240,0);
+		}		
+ul	{	
+		background-color:rgba(144,228,240,0.7);
+		text-align:centre;
+		list-style-type:katakana;
+		}
+
+li	{
+		display:list-style-type:katakana;
 		}
 strong	{
 		font-style:italic;
 		text-transform:uppercase;
 		font-weight:900;
 		}
-ul	{
-		list-style-type:katakana;
-		}
 table	{
-		background-image: url("images/table1.jpg");
+		background-image: url("images/table1.png");
 		}
 table,td,th,caption{
 		margin-left:auto;
@@ -69,11 +96,12 @@ table,td,th,caption{
 		border:1.5px solid black;
 		border-collapse:collapse;
 		}
-td,th{
-		padding:15px;
+td,th {
+		padding:10px;
 		}
 th	{
 		text-align:right;
+		padding:15px;
 		}
 td	{
 		text-align:left;
@@ -81,89 +109,161 @@ td	{
 		}
 caption	{
 		text-align:center;
+		font-family:jokerman;
 		}
-tr:hover	{
+tr:hover{
 		background-color:rgba(171,0,0,0.8);
 		}
 </style>
 </head>
 <body>
 <div id="wrapper">
-<ul>
+<ul class="href">
 <li><a href="index.html">Go to Home Page</a></li>
-<li><a href="animepage2.html">Go to Page 2</a></li>
+<li><a href="animepage2.html">Go to Anime Products</a></li>
 </ul>
 <h1></h1>
-<p></p><br>
-<h2></h2>
-<p></p><br>
-<h3></h3>
-<p></p><br>
-<h4></h4>
-<p><strong> </strong></p>
-<h2></h2>
-	<table style="width:70%">
-	<caption>One piece</caption>
-		<th>Character Name</th>
-		<th>Pre-Time Skip Age</th>
-		<th>Post-Time Skip Age</th>
-	<tr>
-		<td>Monkey D. Luffy</td>
-		<td>7-17 years old</td>
-		<td>19 years old</td>
-	</tr>
-		<tr>
-		<td>Monkey D. Garp</td>
-		<td>76 years old</td>
-		<td>78 years old</td>
-	</tr>
-		<tr>
-		<td>Portgas D. Ace</td>
-		<td>20 years old</td>
-		<td>DEAD</td>
-	</tr>
-	<tr>
-		<td>Roronoa Zoro</td>
-		<td>19 years old</td>
-		<td>21 years old</td>
-	</tr>
-		<tr>
-		<td>Nami</td>
-		<td>18 years old</td>
-		<td>20 years old</td>
-	</tr>
-		<tr>
-		<td>Sanji</td>
-		<td>19 years old</td>
-		<td>21 years old</td>
-		
-	</tr>
-	<tr>
-		<td>Trafalgar D. Water Law</td>
-		<td>24 years old</td>
-		<td>26 years old</td>
-	</tr>
-	<tr>
-		<td>Tony Tony Chopper</td>
-		<td>15 years old</td>
-		<td>17 years old</td>
-	</tr>
-	<tr>
-		<td>Nico Robin</td>
-		<td>28 years old</td>
-		<td>30 years old</td>
-	</tr>
-	<tr>
-		<td>Franky</td>
-		<td>34 years old</td>
-		<td>36 years old</td>
-	</tr>
-	<tr>
-		<td>Brook</td>
-		<td>88 years old</td>
-		<td>90 years old</td>
-	</tr>
-	</table>
+<h2><strong>Information on One Piece</strong></h2>
+<p>One Piece is a Japanese manga series written and illustrated by Eiichiro Oda.
+It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997,
+with its individual chapters compiled into 107 tankōbon volumes as of November 2023.
+The story follows the adventures of Monkey D. Luffy and his crew, the Straw Hat Pirates,
+where he explores the Grand Line in search of the mythical treasure known as the "One Piece"
+in order to become the next King of the Pirates.</p><br>
+<h2>Storyline</h2>
+<p>Almost a millennium ago, a mighty ancient kingdom ruled the world.
+Twenty ambitious kings joined forces to annihilate it, erasing any trace
+of its existence and establishing the World Government, which still 
+governs the world today. The period that followed, known as the Void
+Century, conceals untold secrets.Some centuries later, a pirate
+named Gol D. Roger emerged,amassing vast power, wealth, and influence.
+His ideals of freedomand rebellion posed a grave threat to the World 
+Government,leading them to seek his capture. Roger eventually surrendered
+himself, but just before his execution, he disclosed the existenceb
+of the world's greatest treasure, the One Piece, hidden at the end
+of the Grand Line, a perilous sea.</p><br>
+<h2>Japanese Words used in One Piece</h2>
+<ol>
+<li>Devil Fruits (悪魔の実, Akuma no Mi)</li>
+<li>Haki (覇気)</li>
+<li>Red Line (赤い土の大陸, Reddo Rain)</li>
+<li>Grand Line (偉大なる航路, Reddo Rain)</li>
+<li>Calm Belt (凪の帯, Kāmu Beruto)</li>
+<li>Sea Kings (海王類, Kaiō-rui)</li>
+<li>North Blue (北の海, Nōsu Burū)</li>
+<li>East Blue (東の海, Īsuto Burū)</li>
+<li>West Blue (西の海, Uesuto Burū)</li>
+<li>South Blue (南の海, Sausu Burū)</li>
+<li>Sea Prism Stone (海楼石, Kairōseki, Seastone)</li>
+<li>Reverse Mountain (リヴァース・マウンテン, Rivāsu Maunten)</li>
+<li>Paradise (楽園, Paradaisu)</li>
+<li>New World (新世界, Shinsekai)</li>
+<li>Straw Hat Pirates (麦わら海賊団, Mugiwara Kaizoku-dan)</li>
+<li>Going Merry (ゴーイング・メリー号, Gōingu Merī-gō)</li>
+<li>Thousand Sunny (サウザンドサニー号, Sauzando Sanī-gō)</li>
+</ol>
+<ul>
+<h3>Commissioned Marine Officers</h3>
+<li>Fleet Admiral (元帥, Gensui?)</li>
+<li>Admiral (大将, Taishō?)</li>
+<li>Vice Admiral (中将, Chūjō?)</li>
+<li>Rear Admiral (少将, Shōshō?)</li>
+<li>Commodore (准将, Junshō?)</li>
+<li>Captain (大佐, Taisa?)</li>
+<li>Commander (中佐, Chūsa?)</li>
+<li>Lieutenant Commander (少佐, Shōsa?)</li>
+<li>Lieutenant (大尉, Taii?)</li>
+<li>Lieutenant Junior Grade (中尉, Chūi?)</li>
+<li>Ensign (少尉, Shōi?)</li>
+ 
+<h3>Infantry and Sailor Division</h3>
+<li>Warrant Officer (准尉, Juni?)</li>
+<li>Master Chief Petty Officer (曹長, Sōchō?)</li>
+<li>Chief Petty Officer (軍曹, Gunsō?)</li>
+<li>Petty Officer (伍長, Gochō?)</li>
+<li>Seaman First Class (一等兵, Ittōhei?)</li>
+<li>Seaman Apprentice (二等兵, Nitōhei?)</li>
+<li>Seaman Recruit (三等兵, Santōhei?) or Recruit (新兵, Shinpei?)</li>
+<li>Chore Boy (雑用, Zatsuyō?) (not an official rank)</li>
+ 
+<h3>Special Ranks</h3>
+<li>Inspector General (大目付, Ōmetsuke?)</li>
+<li>Instructor (教官, Kyōkan?)</li>
+ 
+<h3>Positions</h3>
+<li>Captain of the Science Unit (科学部隊隊長, Kagaku butai taichō?)</li>
+<li>Captain of SWORD (「SWORD」隊長, Sōdo taichō?)</li>
+<li>Director of Marine Bureau of Investigation (海軍犯罪捜査局, Kaigun hanzai sōsa-kyoku?)</li>
+<li>Base Commander (基地長, Kichi-chō?)</li>
+ 
+<h3>Non-Canon Positions</h3>
+<li>Special Operations Advisor (特別作戦参謀, Tokubetsu sakusen sanbō?)</li>
+<li>Special Inspector (特別監査官, Tokubetsu kansa-kan?)</li>
+<li>Fleet Commodore (提督, Teitoku?)</li>
+<li>(Base) Commander (司令官, Shirei-kan?)</li>
+<li>Chief (所長, Shochō?)</li>
+</ul>
+<table style="width:70%">
+<caption>One piece</caption>
+<th><p class="highlight">Character Name</p></th>
+<th><p class="highlight">Pre-Time Skip Age</p></th>
+<th><p class="highlight">Post-Time Skip Age</p></th>
+<tr>
+<td><p class="highlight">Monkey D. Luffy</p></td>
+<td><p class="highlight">7-17 years old</p></td>
+<td><p class="highlight">19 years old</p></td>
+</tr>
+<tr>
+<td><p class="highlight">Monkey D. Garp</p></td>
+<td><p class="highlight">76 years old</p></td>
+<td><p class="highlight">78 years old</p></td>
+</tr>
+<tr>
+<td><p class="highlight">Portgas D. Ace</p></td>
+<td><p class="highlight">20 years old</p></td>
+<td><p class="highlight">DEAD</p></td>
+</tr>
+<tr>
+<td><p class="highlight">Roronoa Zoro</p></td>
+<td><p class="highlight">19 years old</p></td>
+<td><p class="highlight">21 years old</p></td>
+</tr>
+<tr>
+<td><p class="highlight">Nami</p></td>
+<td><p class="highlight">18 years old</p></td>
+<td><p class="highlight">20 years old</p></td>
+</tr>
+<tr>
+<td><p class="highlight">Sanji</p></td>
+<td><p class="highlight">19 years old</p></td>
+<td><p class="highlight">21 years old</p></td>
+</tr>
+<tr>
+<td><p class="highlight">Trafalgar Law</p></td>
+<td><p class="highlight">24 years old</p></td>
+<td><p class="highlight">26 years old</p></td>
+</tr>
+<tr>
+<td><p class="highlight">Tony Chopper</p></td>
+<td><p class="highlight">15 years old</p></td>
+<td><p class="highlight">17 years old</p></td>
+</tr>
+<tr>
+<td><p class="highlight">Nico Robin</p></td>
+<td><p class="highlight">28 years old</p></td>
+<td><p class="highlight">30 years old</p></td>
+</tr>
+<tr>
+<td><p class="highlight">Franky</p></td>
+<td><p class="highlight">34 years old</p></td>
+<td><p class="highlight">36 years old</p></td>
+</tr>
+<tr>
+<td><p class="highlight">Brook</p></td>
+<td><p class="highlight">88 years old</p></td>
+<td><p class="highlight">90 years old</p></td>
+</tr>
+</table>
 </div>
 </body>
 </html>
